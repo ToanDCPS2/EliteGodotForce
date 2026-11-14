@@ -1,0 +1,15 @@
+; Engine configuration file.
+config_version=5
+
+[application]
+
+run/main_scene="res://epf/game/main.tscn"
+config/name="Elite Penguin Force (PC port)"
+config/features=PackedStringArray("4.3")
+
+[display]
+
+window/size/viewport_width=384
+window/size/viewport_height=216
+window/size/window_width_override=1152
+window/size/window_height_override=648

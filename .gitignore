@@ -1,0 +1,17 @@
+# Game data: never commit. The port builds game.epf from your own ROM on first boot.
+*.nds
+*.epf
+*.epf.part
+*.sav
+*.dsv
+# Player files
+saves/
+last_run.log
+# Godot
+.godot/
+*.import
+export_presets.cfg
+# Godot editor/runtime binaries kept next to the project
+Godot_v*
+*.exe
+*.x86_64

@@ -1,0 +1,8 @@
+extends SceneTree
+func _init() -> void:
+	var m = load("res://epf/game/main.tscn").instantiate(); root.add_child(m)
+	await create_timer(0.5).timeout
+	m._set_lang("en")
+	for a in OS.get_cmdline_user_args():
+		print("S ", a, " [", m.game_text.get_text(int(a)).c_escape(), "]")
+	quit()
