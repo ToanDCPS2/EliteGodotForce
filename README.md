@@ -1,6 +1,6 @@
 # Elite Penguin Force – PC Port
 
-A Godot 4 PC port of *Club Penguin: Elite Penguin Force* (Nintendo DS).
+A Godot 4 PC port of *Club Penguin: Elite Penguin Force* (Nintendo DS). (WIP)
 
 ## Required ROM: USA, Revision 2
 
